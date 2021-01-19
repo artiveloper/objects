@@ -35,7 +35,7 @@ class TheaterTest {
         //then
         Assertions.assertEquals(4, ticketOffice.getTickets().size(), "남은 티켓 수량은 4장이다.");
         Assertions.assertEquals(0L, ticketOffice.getAmount(), "매표소가 보유한 현금은 0원 이다.");
-        Assertions.assertEquals(10000L, audience.getBag().getAmount(), "매표소가 보유한 현금은 10000원 이다.");
+        Assertions.assertEquals(10000L, audience.getAmount(), "매표소가 보유한 현금은 10000원 이다.");
     }
 
     @Test
@@ -64,7 +64,7 @@ class TheaterTest {
         //then
         Assertions.assertEquals(4, ticketOffice.getTickets().size(), "남은 티켓 수량은 4장이다.");
         Assertions.assertEquals(5000L, ticketOffice.getAmount(), "매표소가 보유한 현금은 5000원 이다.");
-        Assertions.assertEquals(5000L, audience.getBag().getAmount(), "매표소가 보유한 현금은 5000원 이다.");
+        Assertions.assertEquals(5000L, audience.getAmount(), "매표소가 보유한 현금은 5000원 이다.");
     }
 
 }
