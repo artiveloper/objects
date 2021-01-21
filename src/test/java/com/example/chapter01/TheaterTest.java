@@ -1,4 +1,4 @@
-package com.example;
+package com.example.chapter01;
 
 import com.example.chapter01.*;
 import org.junit.jupiter.api.Assertions;
